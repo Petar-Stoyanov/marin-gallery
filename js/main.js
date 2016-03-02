@@ -69,7 +69,7 @@ $('.main-picture').click(function(){
 $('.main-picture').click(function(){
   $('.modal-content').children('.thumbnail-holder').remove('.thumbnail-holder');
   $('.thumbnail-holder').clone().insertAfter('.modal-body');
-  $('.modal-content').children('.thumbnail-holder').removeClass( "col-lg-6 col-md-6" ).addClass( "col-lg-12 col-md-12" );
+  $('.modal-content').children('.thumbnail-holder').removeClass("col-lg-6 col-md-6").addClass("col-lg-12 col-md-12");
 });
 
 $('.thumbnail').click(function(){
@@ -81,13 +81,8 @@ $('.thumbnail').click(function(){
 $('.thumbnail').click(function(){
   $('.modal-content').children('.thumbnail-holder').remove('.thumbnail-holder');
   $('.thumbnail-holder').clone().insertAfter('.modal-body');
-  $('.modal-content').children('.thumbnail-holder').removeClass( "col-lg-6 col-md-6" ).addClass( "col-lg-12 col-md-12" );
+  $('.modal-content').children('.thumbnail-holder').removeClass("col-lg-6 col-md-6").addClass("col-lg-12 col-md-12");
 });
-
-
-
-
-
 
 
 
